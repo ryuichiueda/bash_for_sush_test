@@ -5,7 +5,8 @@ testdir=${2:-~/GIT/bash_for_sush_test/tests}
 
 ( cd $sushdir && cargo build --release) || exit 1 
 
-export THIS_SH="${sushdir}/target/release/sush -b"
+export SUSH_COMPAT_TEST_MODE=1
+export THIS_SH="${sushdir}/target/release/sush"
 
 cd $testdir || exit 1
 
