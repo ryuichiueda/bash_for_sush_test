@@ -1,0 +1,12 @@
+#!/bin/bash -xv
+
+dir=$(dirname $0)
+
+export TMPDIR=/tmp
+export PATH=$PATH:/home/ueda/GIT/bash_for_sush_test/tests
+
+timeout 60 $dir/bash_genuine_test_sub > /tmp/$$-result &
+
+sleep 65
+
+awk '{a[$1]=$2}END{for(k in a)print k, a[k]}' $dir/bash_genuine_test_list /tmp/$$-result 
