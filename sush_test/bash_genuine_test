@@ -2,6 +2,7 @@
 
 dir=$(dirname $0)
 
+export SUSH_COMPAT_TEST_MODE=1
 export TMPDIR=/tmp
 export PATH=$PATH:/home/ueda/GIT/bash_for_sush_test/tests
 
