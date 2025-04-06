@@ -7,7 +7,7 @@ run-assoc 702
 run-test 210
 run-lastpipe 31
 run-cprint 84
-run-array 1056
+run-array 1050
 run-coproc 63
 run-redir 232
 run-shopt 614
@@ -16,7 +16,7 @@ run-exp-tests 905
 run-tilde 20
 run-printf 361
 run-nquote2 17
-run-comsub 100
+run-comsub 99
 run-precedence 0
 run-more-exp 155
 run-heredoc 165
@@ -44,7 +44,7 @@ run-dynvar 10
 run-tilde2 36
 run-trap 3338
 run-input-test 4
-run-complete 183
+run-complete 181
 run-new-exp 762
 run-dbg-support2 12
 run-ifs-posix 256
@@ -53,7 +53,7 @@ run-getopts 101
 run-errors 220
 run-func 167
 run-nameref 822
-run-builtins 320
+run-builtins 322
 run-histexpand 346
 run-rhs-exp 39
 run-nquote5 18
@@ -69,15 +69,15 @@ run-braces 0
 run-strip 14
 run-herestr 24
 run-quotearray 325
-run-set-x 74
-run-quote 80
+run-set-x 88
+run-quote 79
 run-alias 81
 run-nquote3 15
-run-arith 147
+run-arith 136
 run-nquote4 38
 run-set-e 72
 run-dbg-support 404
 run-history 372
-run-casemod 79
+run-casemod 77
 run-extglob3 0
 run-posixexp2 47
