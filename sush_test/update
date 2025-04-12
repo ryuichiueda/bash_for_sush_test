@@ -1,0 +1,7 @@
+#!/bin/bash -xv
+
+date=$(date "+%Y%m%d")
+
+echo $date
+./bash_genuine_test | tee $date.result | bash ./summary | tee $date.summary
+./graph
