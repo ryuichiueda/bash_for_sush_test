@@ -5,6 +5,7 @@ dir=$(dirname $0)
 export SUSH_COMPAT_TEST_MODE=1
 export TMPDIR=/tmp
 export PATH=$PATH:/home/ueda/GIT/bash_for_sush_test/tests
+export LC_ALL=en_US.utf8
 
 timeout 60 $dir/bash_genuine_test_sub > /tmp/$$-result &
 
