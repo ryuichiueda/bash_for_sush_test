@@ -3,7 +3,7 @@ run-invert 0
 run-vredir 232
 run-comsub-eof 22
 run-dollars 589
-run-assoc 794
+run-assoc 795
 run-test 210
 run-lastpipe 30
 run-cprint 84
@@ -16,7 +16,7 @@ run-exp-tests 886
 run-tilde 20
 run-printf 355
 run-nquote2 0
-run-comsub 78
+run-comsub 77
 run-precedence 0
 run-more-exp 174
 run-heredoc 161
@@ -43,8 +43,8 @@ run-iquote 18
 run-dynvar 10
 run-tilde2 36
 run-trap 168
+run-complete 270
 run-input-test 0
-run-complete 272
 run-new-exp 602
 run-dbg-support2 12
 run-ifs-posix 256
@@ -61,8 +61,8 @@ run-extglob2 0
 run-type 185
 run-posixpat 25
 run-posix2 15
-run-rsh 39
 run-appendop 61
+run-rsh 39
 run-globstar 0
 run-varenv 435
 run-braces 0
@@ -71,13 +71,13 @@ run-herestr 0
 run-quotearray 335
 run-set-x 88
 run-quote 80
-run-alias 33
+run-alias 25
 run-nquote3 0
 run-arith 125
 run-nquote4 33
 run-set-e 72
 run-dbg-support 403
-run-history 358
+run-history 361
 run-casemod 77
 run-extglob3 0
 run-posixexp2 47
