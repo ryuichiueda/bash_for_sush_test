@@ -3,7 +3,7 @@ run-invert 0
 run-vredir 232
 run-comsub-eof 22
 run-dollars 589
-run-assoc 795
+run-assoc 800
 run-test 210
 run-lastpipe 31
 run-cprint 84
@@ -16,11 +16,11 @@ run-exp-tests 886
 run-tilde 20
 run-printf 355
 run-nquote2 0
-run-comsub 77
+run-comsub 78
 run-precedence 0
 run-more-exp 174
-run-ifs 0
 run-heredoc 161
+run-ifs 0
 run-case 0
 run-comsub-posix 106
 run-attr 92
@@ -70,7 +70,7 @@ run-strip 14
 run-herestr 0
 run-quotearray 335
 run-set-x 88
-run-quote 79
+run-quote 80
 run-alias 0
 run-nquote3 0
 run-arith 125

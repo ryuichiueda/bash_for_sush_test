@@ -28,8 +28,8 @@ set xtics 1
 set mxtics 4
 set yrange [0:90]
 set ytics nomirror
-set y2range [0:80000]
-set y2tics 20000
+set y2range [0:30000]
+set y2tics 5000
 plot '$tmp-OK' title "PASSED run-* FILES (LEFT Y-AXIS)" axis x1y1 with linespoints pt 2 lc 1,\
 '$tmp-NG' title "NOT PASSED run-* FILES (LEFT Y-AXIS)" axis x1y1 with linespoints pt 1 lc 2,\
 '$tmp-DNF' axis x1y1 title "DNF run-* FILES (LEFT Y-AXIS)" with linespoints pt 3 lc 3, \
