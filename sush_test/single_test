@@ -7,6 +7,7 @@ sushdir=~/GIT/rusty_bash
 testdir=~/GIT/bash_for_sush_test/tests
 export PATH=$PATH:/home/ueda/GIT/bash_for_sush_test/tests
 export SUSH_COMPAT_TEST_MODE=1
+export TMPDIR=/tmp
 
 ( cd $sushdir && cargo build --release) || exit 1 
 
