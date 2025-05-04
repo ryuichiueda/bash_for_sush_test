@@ -1,14 +1,14 @@
 run-procsub 126
 run-invert 0
-run-comsub-eof 22
 run-vredir 104
+run-comsub-eof 22
 run-dollars 588
-run-assoc 794
+run-assoc 799
 run-test 210
-run-lastpipe 30
 run-cprint 84
-run-array 996
-run-execscript 351
+run-lastpipe 30
+run-array 997
+run-execscript 348
 run-coproc 61
 run-shopt 647
 run-redir 170
@@ -47,7 +47,7 @@ run-input-test 0
 run-complete 266
 run-new-exp 604
 run-dbg-support2 12
-run-read 4118
+run-read 4117
 run-ifs-posix 256
 run-getopts 84
 run-errors 270
@@ -69,7 +69,7 @@ run-braces 0
 run-strip 14
 run-herestr 0
 run-quotearray 336
-run-set-x 91
+run-set-x 85
 run-quote 79
 run-alias 0
 run-nquote3 0
