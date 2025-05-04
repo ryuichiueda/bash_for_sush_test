@@ -3,7 +3,7 @@ run-invert 0
 run-comsub-eof 22
 run-vredir 104
 run-dollars 588
-run-assoc 800
+run-assoc 794
 run-test 210
 run-lastpipe 30
 run-cprint 84
@@ -35,7 +35,7 @@ run-parser 35
 run-nquote 0
 run-dirstack 156
 run-array2 57
-run-jobs 179
+run-jobs 176
 run-cond 89
 run-nquote1 0
 run-arith-for 134
@@ -61,15 +61,15 @@ run-extglob2 0
 run-type 178
 run-posixpat 25
 run-posix2 14
-run-appendop 61
 run-rsh 0
+run-appendop 61
 run-globstar 0
 run-varenv 425
 run-braces 0
 run-strip 14
 run-herestr 0
 run-quotearray 336
-run-set-x 85
+run-set-x 91
 run-quote 79
 run-alias 0
 run-nquote3 0
@@ -77,7 +77,7 @@ run-arith 125
 run-nquote4 33
 run-set-e 72
 run-dbg-support 403
-run-history 356
+run-history 355
 run-casemod 77
 run-extglob3 0
 run-posixexp2 47
