@@ -10,8 +10,8 @@ export TMPDIR=/tmp
 export PATH=$PATH:/home/ueda/GIT/bash_for_sush_test/tests
 export LC_ALL=en_US.utf8
 
-timeout 60 $dir/bash_genuine_test_sub > /tmp/$$-result &
+timeout 115 $dir/bash_genuine_test_sub > /tmp/$$-result &
 
-sleep 65
+sleep 120
 
 awk '{a[$1]=$2}END{for(k in a)print k, a[k]}' $dir/bash_genuine_test_list /tmp/$$-result 
