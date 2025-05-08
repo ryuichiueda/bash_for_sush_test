@@ -9,11 +9,11 @@ export PATH=$PATH:/home/ueda/GIT/bash_for_sush_test/tests
 export SUSH_COMPAT_TEST_MODE=1
 export TMPDIR=/tmp
 
-( cd $sushdir && cargo build --release) || exit 1 
+( cd $sushdir && cargo build) || exit 1 
 
 cd $testdir
 
-export THIS_SH="${sushdir}/target/release/sush"
+export THIS_SH="${sushdir}/target/debug/sush"
 
 cd $testdir || exit 1
 

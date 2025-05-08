@@ -1,1 +1,1 @@
-THIS_SH=~/GIT/rusty_bash/target/release/sush bash ~/GIT/bash/tests/invert.tests
+THIS_SH=~/GIT/rusty_bash/target/debug/sush bash ~/GIT/bash/tests/invert.tests

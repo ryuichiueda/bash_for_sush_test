@@ -3,10 +3,10 @@
 sushdir=${1:-~/GIT/rusty_bash}
 testdir=${2:-~/GIT/bash_for_sush_test/tests}
 
-( cd $sushdir && cargo build --release) || exit 1 
+( cd $sushdir && cargo build) || exit 1 
 
 export SUSH_COMPAT_TEST_MODE=1
-export THIS_SH="${sushdir}/target/release/sush"
+export THIS_SH="${sushdir}/target/debug/sush"
 
 cd $testdir || exit 1
 
