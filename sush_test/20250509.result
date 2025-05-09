@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 355
+run-execscript 356
 run-strip 14
 run-exportfunc 19
 run-heredoc 161
@@ -9,7 +9,7 @@ run-attr 91
 run-herestr 0
 run-appendop 61
 run-dbg-support 403
-run-trap 141
+run-trap 140
 run-nquote1 0
 run-nquote2 0
 run-nquote3 0
@@ -27,7 +27,7 @@ run-mapfile 180
 run-ifs-posix 256
 run-histexpand 330
 run-extglob 117
-run-jobs DNF
+run-jobs 221
 run-arith-for 134
 run-iquote 18
 run-cond 89
@@ -45,7 +45,7 @@ run-history 355
 run-type 178
 run-read 4124
 run-posixpipe 80
-run-new-exp 600
+run-new-exp 601
 run-more-exp 174
 run-comsub-posix 106
 run-shopt 647
@@ -65,7 +65,7 @@ run-errors 270
 run-posixpat 25
 run-comsub 77
 run-array2 57
-run-quotearray 337
+run-quotearray 336
 run-arith 125
 run-exp-tests 884
 run-set-x 85
