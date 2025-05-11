@@ -27,7 +27,7 @@ run-mapfile 180
 run-ifs-posix 256
 run-histexpand 330
 run-extglob 117
-run-jobs 110
+run-jobs 106
 run-arith-for 134
 run-iquote 18
 run-cond 89
@@ -69,7 +69,7 @@ run-quotearray 336
 run-arith 125
 run-exp-tests 884
 run-set-x 85
-run-quote 80
+run-quote 79
 run-nameref 968
 run-globstar 0
 run-posixexp2 47
