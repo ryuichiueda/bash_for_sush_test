@@ -16,7 +16,7 @@ run-nquote3 0
 run-rhs-exp 40
 run-nquote4 33
 run-nquote5 0
-run-assoc 768
+run-assoc 777
 run-posix2 14
 run-procsub 122
 run-nquote 0
@@ -65,7 +65,7 @@ run-errors 280
 run-posixpat 25
 run-comsub 69
 run-array2 57
-run-quotearray 318
+run-quotearray 320
 run-arith 125
 run-exp-tests 871
 run-set-x 85
@@ -74,9 +74,9 @@ run-nameref 973
 run-globstar 0
 run-posixexp2 43
 run-test 207
-run-complete 266
+run-complete 265
 run-lastpipe 0
-run-array 950
+run-array 935
 run-dynvar 0
 run-dbg-support2 12
 run-getopts 84
