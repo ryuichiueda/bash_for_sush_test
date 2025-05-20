@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 355
+run-execscript 356
 run-strip 0
 run-exportfunc 19
 run-heredoc 148
@@ -9,7 +9,7 @@ run-attr 91
 run-herestr 0
 run-appendop 61
 run-dbg-support 403
-run-trap 141
+run-trap 140
 run-nquote1 0
 run-nquote2 0
 run-nquote3 0
@@ -53,7 +53,7 @@ run-alias 0
 run-set-e 72
 run-varenv 383
 run-precedence 0
-run-intl 86
+run-intl 94
 run-invert 0
 run-comsub-eof 21
 run-casemod 77
@@ -66,7 +66,7 @@ run-posixpat 25
 run-comsub 69
 run-array2 57
 run-quotearray 320
-run-arith 88
+run-arith 72
 run-exp-tests 850
 run-set-x 85
 run-quote 58
