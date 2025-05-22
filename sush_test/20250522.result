@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 355
+run-execscript 356
 run-strip 0
 run-exportfunc 19
 run-heredoc 148
@@ -18,7 +18,7 @@ run-nquote4 33
 run-nquote5 0
 run-assoc 728
 run-posix2 14
-run-procsub 116
+run-procsub 120
 run-nquote 0
 run-printf 355
 run-ifs 0
@@ -45,7 +45,7 @@ run-history 355
 run-type 178
 run-read 4124
 run-posixpipe 80
-run-new-exp 510
+run-new-exp 511
 run-more-exp 138
 run-comsub-posix 84
 run-shopt 646
@@ -66,7 +66,7 @@ run-posixpat 25
 run-comsub 69
 run-array2 57
 run-quotearray 320
-run-arith 39
+run-arith 35
 run-exp-tests 850
 run-set-x 85
 run-quote 58
@@ -74,9 +74,9 @@ run-nameref 965
 run-globstar 0
 run-posixexp2 43
 run-test 207
-run-complete 267
+run-complete 268
 run-lastpipe 0
-run-array 911
+run-array 912
 run-dynvar 0
 run-dbg-support2 12
 run-getopts 84
