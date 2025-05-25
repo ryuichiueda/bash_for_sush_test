@@ -11,7 +11,7 @@ declare -a BASH_ARGV=()
 declare -a BASH_LINENO=([0]="0")
 declare -a BASH_SOURCE=([0]="./array.tests")
 declare -a DIRSTACK=()
-declare -a FUNCNAME=()
+declare -a FUNCNAME
 declare -a a=([0]="abcde" [1]="" [2]="bdef")
 declare -a b
 declare -ar c
@@ -39,7 +39,7 @@ declare -a BASH_ARGV=()
 declare -a BASH_LINENO=([0]="0")
 declare -a BASH_SOURCE=([0]="./array.tests")
 declare -a DIRSTACK=()
-declare -a FUNCNAME=()
+declare -a FUNCNAME
 declare -ar a=([1]="" [2]="bdef" [5]="hello world" [6]="test expression" [15]="test 2")
 declare -a b=([0]="this" [1]="is" [2]="a" [3]="test" [4]="" [5]="/etc/passwd")
 declare -ar c
@@ -62,7 +62,7 @@ declare -a BASH_ARGV=()
 declare -a BASH_LINENO=([0]="0")
 declare -a BASH_SOURCE=([0]="./array.tests")
 declare -a DIRSTACK=()
-declare -a FUNCNAME=()
+declare -a FUNCNAME
 declare -ar a=([1]="" [2]="bdef" [5]="hello world" [6]="test expression" [15]="test 2")
 declare -a b=([0]="this" [1]="is" [2]="a" [3]="test" [4]="" [5]="/etc/passwd")
 declare -ar c
@@ -80,7 +80,7 @@ declare -a BASH_ARGV=()
 declare -a BASH_LINENO=([0]="0")
 declare -a BASH_SOURCE=([0]="./array.tests")
 declare -a DIRSTACK=()
-declare -a FUNCNAME=()
+declare -a FUNCNAME
 declare -ar a=([1]="" [2]="bdef" [5]="hello world" [6]="test expression" [15]="test 2")
 declare -a b=([0]="this" [1]="is" [2]="a" [3]="test" [4]="" [5]="/etc/passwd")
 declare -ar c
