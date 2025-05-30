@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 175
+run-execscript 172
 run-strip 0
 run-exportfunc 37
 run-heredoc 150
@@ -9,7 +9,7 @@ run-attr 89
 run-herestr 0
 run-appendop 54
 run-dbg-support 403
-run-trap 122
+run-trap 125
 run-nquote1 0
 run-nquote2 0
 run-nquote3 0
@@ -31,7 +31,7 @@ run-jobs 106
 run-arith-for 134
 run-iquote 18
 run-cond 89
-run-func 368
+run-func 369
 run-tilde2 39
 run-posixexp 372
 run-glob-test 256
@@ -58,14 +58,14 @@ run-invert 0
 run-comsub-eof 21
 run-casemod 77
 run-extglob2 0
-run-builtins 274
+run-builtins 278
 run-extglob3 0
 run-redir 171
 run-errors 294
 run-posixpat 25
 run-comsub 69
 run-array2 57
-run-quotearray 323
+run-quotearray 321
 run-arith 23
 run-exp-tests 850
 run-set-x 85
@@ -74,9 +74,9 @@ run-nameref 969
 run-globstar 0
 run-posixexp2 43
 run-test 201
-run-complete 265
+run-complete 273
 run-lastpipe 0
-run-array 753
+run-array 745
 run-dynvar 0
 run-dbg-support2 12
 run-getopts 85
