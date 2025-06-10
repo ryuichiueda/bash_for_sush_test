@@ -7,7 +7,7 @@ run-dollars 364
 run-test 202
 run-lastpipe 0
 run-cprint 84
-run-array 461
+run-array 459
 run-execscript 129
 run-coproc 55
 run-shopt 645
@@ -33,7 +33,7 @@ run-exportfunc 32
 run-glob-test 250
 run-parser 25
 run-nquote 0
-run-dirstack 156
+run-dirstack 152
 run-array2 0
 run-jobs 100
 run-cond 89
@@ -42,16 +42,16 @@ run-arith-for 134
 run-iquote 18
 run-dynvar 0
 run-tilde2 28
-run-trap 118
+run-trap 105
 run-input-test 0
-run-complete 267
+run-complete 271
 run-new-exp 466
 run-dbg-support2 12
 run-ifs-posix 256
 run-read 92
 run-getopts 61
 run-errors 294
-run-func 361
+run-func 360
 run-nameref 995
 run-builtins 277
 run-histexpand 330
@@ -61,8 +61,8 @@ run-extglob2 0
 run-posixpat 24
 run-type 178
 run-posix2 10
-run-appendop 53
 run-rsh 0
+run-appendop 53
 run-globstar 0
 run-varenv 345
 run-braces 0
@@ -77,7 +77,7 @@ run-arith 23
 run-nquote4 27
 run-set-e 72
 run-dbg-support 453
-run-history 355
+run-history 357
 run-casemod 42
 run-extglob3 0
 run-posixexp2 43
