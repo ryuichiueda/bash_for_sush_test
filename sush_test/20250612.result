@@ -5,11 +5,11 @@ run-exportfunc 32
 run-heredoc 148
 run-coproc 54
 run-braces 0
-run-attr 65
+run-attr 50
 run-herestr 0
 run-appendop 47
 run-dbg-support 443
-run-trap 123
+run-trap 122
 run-nquote1 0
 run-nquote2 0
 run-nquote3 0
@@ -41,7 +41,7 @@ run-vredir 104
 run-tilde 0
 run-input-test 0
 run-cprint 84
-run-history 355
+run-history 358
 run-type 178
 run-read 92
 run-posixpipe 80
@@ -51,7 +51,7 @@ run-comsub-posix 84
 run-shopt 645
 run-alias 0
 run-set-e 72
-run-varenv 345
+run-varenv 335
 run-precedence 0
 run-intl 198
 run-invert 0
@@ -74,7 +74,7 @@ run-nameref 995
 run-globstar 0
 run-posixexp2 43
 run-test 201
-run-complete 271
+run-complete 270
 run-lastpipe 0
 run-array 437
 run-dynvar 0
