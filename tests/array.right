@@ -354,7 +354,7 @@ version[agent]
 version.agent
 foo[bar] version[agent]
 bowl version.agent
-foobar] foo foo[bar]
+foo foobar] foo[bar]
 bleh bbb bleh
 ab]
 bar
@@ -449,7 +449,7 @@ declare -- a="(1 2 3)"
 declare -a a=([0]="1" [1]="2" [2]="3")
 declare -- a="([0]=a [1]=b)"
 declare -a a=([0]="a" [1]="b")
-declare -A a=([1]="b" [0]="a" )
+declare -A a=([0]="a" [1]="b" )
 declare -a var=([0]="[\$(echo" [1]="total" [2]="0)]=1" [3]="[2]=2]")
 declare -a var=([0]="[\$(echo total 0)]=1 [2]=2]")
 declare -a var=([0]="[\$(echo" [1]="total" [2]="0)]=1" [3]="[2]=2]")
