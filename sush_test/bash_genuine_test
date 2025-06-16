@@ -1,7 +1,7 @@
 #!/bin/bash -xv
 
-ulimit -v 10000000
-ulimit -m 10000000
+#ulimit -v 10000000
+#ulimit -m 10000000
 
 dir=$(dirname $0)
 
@@ -14,4 +14,4 @@ timeout 115 $dir/bash_genuine_test_sub > /tmp/$$-result &
 
 sleep 120
 
-awk '{a[$1]=$2}END{for(k in a)print k, a[k]}' $dir/bash_genuine_test_list /tmp/$$-result 
+gawk '{a[$1]=$2}END{for(k in a)print k, a[k]}' $dir/bash_genuine_test_list /tmp/$$-result 

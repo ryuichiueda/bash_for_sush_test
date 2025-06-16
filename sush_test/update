@@ -1,12 +1,12 @@
 #!/bin/bash -xv
 
-date=$(date "+%Y%m%d")
+gdate=$(gdate "+%Y%m%d")
 
-ulimit -v 10000000
-ulimit -m 10000000
+#ulimit -v 10000000
+#ulimit -m 10000000
 
-echo $date
-./bash_genuine_test | tee $date.result | bash ./summary | tee $date.summary
-./graph
+echo $gdate
+./bash_genuine_test | tee $gdate.result | bash ./summary | tee $gdate.summary
+#./graph
 
-cat $date.summary
+cat $gdate.summary
