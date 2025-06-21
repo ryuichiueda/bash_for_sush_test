@@ -7,6 +7,6 @@ gdate=$(gdate "+%Y%m%d")
 
 echo $gdate
 ./bash_genuine_test | tee $gdate.result | bash ./summary | tee $gdate.summary
-#./graph
+./graph
 
 cat $gdate.summary
