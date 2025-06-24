@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 129
+run-execscript 127
 run-strip 0
 run-exportfunc 32
 run-heredoc 148
@@ -9,7 +9,7 @@ run-attr 40
 run-herestr 0
 run-appendop 45
 run-dbg-support 443
-run-trap 120
+run-trap 119
 run-nquote1 0
 run-nquote2 0
 run-nquote3 0
@@ -74,9 +74,9 @@ run-nameref 958
 run-globstar 0
 run-posixexp2 43
 run-test 201
-run-complete 266
+run-complete 269
 run-lastpipe 0
-run-array 241
+run-array 239
 run-dynvar 0
 run-dbg-support2 12
 run-getopts 57
