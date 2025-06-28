@@ -522,10 +522,10 @@ p3
 argv[1] = <y>
 <X> <X> <X> <X>
 <X> <X> <X> <X>
-./array23.sub: line 22: $( echo >&2 foo ) : syntax error: operand expected (error token is "$( echo >&2 foo ) ")
-./array23.sub: line 23: $( echo >&2 foo ) : syntax error: operand expected (error token is "$( echo >&2 foo ) ")
-./array23.sub: line 24: $( echo >&2 foo ) : syntax error: operand expected (error token is "$( echo >&2 foo ) ")
-./array23.sub: line 26: $( echo >&2 foo ) : syntax error: operand expected (error token is "$( echo >&2 foo ) ")
+./array23.sub: line 22: $( echo >&2 foo ) : syntax error: operand expected (error token is "$( echo >&2 foo )")
+./array23.sub: line 23: $( echo >&2 foo ) : syntax error: operand expected (error token is "$( echo >&2 foo )")
+./array23.sub: line 24: $( echo >&2 foo ) : syntax error: operand expected (error token is "$( echo >&2 foo )")
+./array23.sub: line 26: $( echo >&2 foo ) : syntax error: operand expected (error token is "$( echo >&2 foo )")
 ./array23.sub: line 30: $( echo >&2 foo ): syntax error: operand expected (error token is "$( echo >&2 foo )")
 ./array23.sub: line 33: $( echo >&2 foo ): syntax error: operand expected (error token is "$( echo >&2 foo )")
 ./array23.sub: line 34: $index: syntax error: operand expected (error token is "$index")
@@ -747,8 +747,8 @@ argv[1] = <b+a>
 7
 7
 declare -A A=([$'\t']="2" [" "]="2" )
-declare -A A=([$'\t']="2" [" "]="2" ["*"]="2" ["]"]="2" ["@"]="2" )
-declare -A A=([$'\t']="2" [" "]="2" ["*"]="2" ["]"]="2" ["@"]="2" )
+declare -A A=([$'\t']="2" [" "]="2" ["*"]="2" ["@"]="2" ["]"]="2" )
+declare -A A=([$'\t']="2" [" "]="2" ["*"]="2" ["@"]="2" ["]"]="2" )
 ./array27.sub: line 52: read: `A[]]': not a valid identifier
 declare -A A=([$'\t']="X" [" "]="X" ["*"]="X" ["@"]="X" )
 ./array27.sub: line 60: printf: `A[]]': not a valid identifier
