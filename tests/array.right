@@ -415,7 +415,7 @@ one
 one
 two
 two
-./array17.sub: line 89: ~ : syntax error: operand expected (error token is "~ ")
+./array17.sub: line 89: ~ : syntax error: operand expected (error token is "~")
 1
 argv[1] = <>
 argv[2] = <>
