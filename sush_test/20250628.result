@@ -9,7 +9,7 @@ run-attr 40
 run-herestr 0
 run-appendop 45
 run-dbg-support 443
-run-trap 118
+run-trap 119
 run-nquote1 0
 run-nquote2 0
 run-nquote3 0
@@ -31,7 +31,7 @@ run-jobs 100
 run-arith-for 134
 run-iquote 18
 run-cond 89
-run-func 359
+run-func 363
 run-tilde2 39
 run-posixexp 290
 run-glob-test 248
@@ -65,7 +65,7 @@ run-errors 293
 run-posixpat 25
 run-comsub 69
 run-array2 0
-run-quotearray 283
+run-quotearray 282
 run-arith 23
 run-exp-tests 789
 run-set-x 85
@@ -74,9 +74,9 @@ run-nameref 958
 run-globstar 0
 run-posixexp2 43
 run-test 201
-run-complete 272
+run-complete 273
 run-lastpipe 0
-run-array 224
+run-array 231
 run-dynvar 0
 run-dbg-support2 12
 run-getopts 57
