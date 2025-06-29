@@ -354,8 +354,8 @@ version[agent]
 version.agent
 foo[bar] version[agent]
 bowl version.agent
-foo foobar] foo[bar]
-bleh bbb bleh
+foo foo[bar] foobar]
+bbb bleh bleh
 ab]
 bar
 1
