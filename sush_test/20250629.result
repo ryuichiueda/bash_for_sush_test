@@ -9,7 +9,7 @@ run-attr 40
 run-herestr 0
 run-appendop 45
 run-dbg-support 443
-run-trap 119
+run-trap 118
 run-nquote1 0
 run-nquote2 0
 run-nquote3 0
@@ -76,7 +76,7 @@ run-posixexp2 43
 run-test 201
 run-complete 270
 run-lastpipe 0
-run-array 199
+run-array 186
 run-dynvar 0
 run-dbg-support2 12
 run-getopts 57
