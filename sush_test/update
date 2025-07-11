@@ -1,5 +1,7 @@
 #!/bin/bash -xv
 
+export PATH=../tests:$PATH
+
 gdate=$(gdate "+%Y%m%d")
 
 #ulimit -v 10000000
