@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 131
+run-execscript 127
 run-strip 0
 run-exportfunc 34
 run-heredoc 148
@@ -18,7 +18,7 @@ run-nquote4 0
 run-nquote5 0
 run-assoc 542
 run-posix2 0
-run-procsub 13
+run-procsub 12
 run-nquote 0
 run-printf 355
 run-ifs 0
@@ -58,7 +58,7 @@ run-invert 0
 run-comsub-eof 21
 run-casemod 40
 run-extglob2 0
-run-builtins 236
+run-builtins 235
 run-extglob3 0
 run-redir 171
 run-errors 290
@@ -74,7 +74,7 @@ run-nameref 951
 run-globstar 0
 run-posixexp2 43
 run-test 202
-run-complete 273
+run-complete 271
 run-lastpipe 0
 run-array 70
 run-dynvar 0
