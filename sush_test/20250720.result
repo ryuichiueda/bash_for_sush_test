@@ -31,7 +31,7 @@ run-jobs 100
 run-arith-for 134
 run-iquote 18
 run-cond 89
-run-func 361
+run-func 364
 run-tilde2 39
 run-posixexp 290
 run-glob-test 248
@@ -56,7 +56,7 @@ run-precedence 0
 run-intl 1336
 run-invert 0
 run-comsub-eof 21
-run-casemod 40
+run-casemod 37
 run-extglob2 0
 run-builtins 235
 run-extglob3 0
@@ -74,7 +74,7 @@ run-nameref 951
 run-globstar 0
 run-posixexp2 43
 run-test 202
-run-complete 266
+run-complete 270
 run-lastpipe 0
 run-array 68
 run-dynvar 0
