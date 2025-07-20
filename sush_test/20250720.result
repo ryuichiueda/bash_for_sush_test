@@ -56,7 +56,7 @@ run-precedence 0
 run-intl 1336
 run-invert 0
 run-comsub-eof 21
-run-casemod 37
+run-casemod 33
 run-extglob2 0
 run-builtins 235
 run-extglob3 0
