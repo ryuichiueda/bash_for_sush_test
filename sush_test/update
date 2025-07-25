@@ -4,8 +4,8 @@ export PATH=../tests:$PATH
 
 gdate=$(gdate "+%Y%m%d")
 
-#ulimit -v 10000000
-#ulimit -m 10000000
+ulimit -v 10000000
+ulimit -m 10000000
 
 echo $gdate
 ./bash_genuine_test | tee $gdate.result | bash ./summary | tee $gdate.summary
