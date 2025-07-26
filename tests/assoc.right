@@ -11,8 +11,8 @@ declare -A fluff=([qux]="assigned" [bar]="newval" )
 declare -A BASH_ALIASES=()
 declare -A BASH_CMDS=()
 declare -Ai chaff=([one]="10" [zero]="5" )
-declare -Ar waste=([pid]="42134" [lineno]="41" [source]="./assoc.tests" [version]="4.0-devel" )
-declare -A wheat=([two]="b" [three]="c" [one]="a" [zero]="0" )
+declare -Ar waste=([lineno]="41" [pid]="42134" [source]="./assoc.tests" [version]="4.0-devel" )
+declare -A wheat=([one]="a" [three]="c" [two]="b" [zero]="0" )
 declare -A chaff=(["hello world"]="flip" [one]="10" [zero]="5" )
 ./assoc.tests: line 51: waste: readonly variable
 ./assoc.tests: line 52: unset: waste: cannot unset: readonly variable
@@ -141,7 +141,7 @@ def bleh abc
 myarray=(["]"]="def" [foo]="bleh" ["a]a"]="abc" ["a]=test1;#a"]="123" )
 
 123
-myarray=(["]"]="def" ["a]=test2;#a"]="def" [foo]="bleh" ["a]a"]="abc" ["a]=test1;#a"]="123" )
+myarray=(["]"]="def" ["a]=test1;#a"]="123" ["a]=test2;#a"]="def" ["a]a"]="abc" [foo]="bleh" )
 bar"bie
 doll
 declare -A foo=(["bar\"bie"]="doll" )
@@ -348,7 +348,7 @@ declare -a foo=([0]=$'\001\001\001\001')
 declare -a var=([0]=$'\001\001\001\001')
 argv[1] = <$'\001\001\001\001'>
 declare -a foo=([0]=$'\001\001\001\001')
-declare -A var=([two]=$'ab\001cd' [one]=$'\001\001\001\001' )
+declare -A var=([one]=$'\001\001\001\001' [two]=$'ab\001cd')
 declare -A foo=([two]=$'ab\001cd' [one]=$'\001\001\001\001' )
 declare -A foo=([$'\001']=$'ab\001cd' )
 declare -A foo=([$'\001']=$'\001\001\001\001' )
