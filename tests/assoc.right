@@ -80,12 +80,12 @@ bin sbin bin bin . sbin ucb bin
 foo qux
 /usr/sbin/foo /usr/local/bin/qux
 hits	command
-   0	/usr/sbin/foo
-   0	/bin/sh
    0	/sbin/blat
+   0	/usr/sbin/foo
    0	/usr/local/bin/qux
-foo sh blat qux
-/usr/sbin/foo /bin/sh /sbin/blat /usr/local/bin/qux
+   0	/bin/sh
+blat foo qux sh
+/sbin/blat /usr/sbin/foo /usr/local/bin/qux /bin/sh
 
 foo qux
 argv[1] = </usr/sbin/foo>
@@ -192,8 +192,8 @@ after printf
 after use: 0
 declare -A assoc=([0]="assoc" )
 assoc
-declare -A assoc=([two]="twoless" [three]="three" [one]="onemore" )
-declare -Ar assoc=([two]="twoless" [three]="three" [one]="onemore" )
+declare -A assoc=([one]="onemore" [three]="three" [two]="twoless" )
+declare -Ar assoc=([one]="onemore" [three]="three" [two]="twoless" )
 declare -A hash=([key]="value1" )
 declare -A hash=([key]="value1 value2" )
 declare -A b=([")"]="" ["\""]="" ["]"]="" ["\\"]="" ["\`"]="" )
