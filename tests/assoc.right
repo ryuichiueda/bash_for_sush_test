@@ -18,21 +18,21 @@ declare -A chaff=(["hello world"]="flip" [one]="10" [zero]="5" )
 ./assoc.tests: line 52: unset: waste: cannot unset: readonly variable
 declare -A chaff=(["*"]="12" ["hello world"]="flip" [one]="a" )
 flip
-argv[1] = <multiple>
-argv[2] = <words>
-argv[3] = <12>
+argv[1] = <12>
+argv[2] = <multiple>
+argv[3] = <words>
 argv[4] = <flip>
 argv[5] = <a>
-argv[1] = <multiple words>
-argv[2] = <12>
+argv[1] = <12>
+argv[2] = <multiple words>
 argv[3] = <flip>
 argv[4] = <a>
-argv[1] = <multiple>
-argv[2] = <words>
-argv[3] = <12>
+argv[1] = <12>
+argv[2] = <multiple>
+argv[3] = <words>
 argv[4] = <flip>
 argv[5] = <a>
-argv[1] = <multiple words 12 flip a>
+argv[1] = <12 multiple words flip a>
 ./assoc.tests: line 71: declare: chaff: cannot destroy array variables in this way
 declare -A wheat=([six]="6" ["foo bar"]="qux qix" )
 argv[1] = <qux>

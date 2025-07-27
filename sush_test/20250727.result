@@ -2,13 +2,13 @@ run-procsub 12
 run-invert 0
 run-comsub-eof 21
 run-vredir 104
-run-assoc 484
+run-assoc 480
 run-dollars 350
 run-test 202
 run-lastpipe 0
 run-cprint 85
 run-array 54
-run-execscript 129
+run-execscript 130
 run-coproc 55
 run-shopt 651
 run-redir 171
