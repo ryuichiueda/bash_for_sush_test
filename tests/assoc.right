@@ -70,11 +70,11 @@ bin sbin bin bin . sbin ucb bin
 / / / / / / /
 8
 4 -- /bin
-^usr^local^bin ^bin . ^usr^bin ^usr^ucb ^usr^sbin ^bin ^sbin
-^usr^local^bin ^bin . ^usr^bin ^usr^ucb ^usr^sbin ^bin ^sbin
-\usr/local/bin \bin . \usr/bin \usr/ucb \usr/sbin \bin \sbin
-\usr\local\bin \bin . \usr\bin \usr\ucb \usr\sbin \bin \sbin
-\usr\local\bin \bin . \usr\bin \usr\ucb \usr\sbin \bin \sbin
+^bin ^sbin ^usr^local^bin ^bin . ^usr^sbin ^usr^ucb ^usr^bin
+^bin ^sbin ^usr^local^bin ^bin . ^usr^sbin ^usr^ucb ^usr^bin
+\bin \sbin \usr/local/bin \bin . \usr/sbin \usr/ucb \usr/bin
+\bin \sbin \usr\local\bin \bin . \usr\sbin \usr\ucb \usr\bin
+\bin \sbin \usr\local\bin \bin . \usr\sbin \usr\ucb \usr\bin
 ([a]=1)
 
 foo qux
