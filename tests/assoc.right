@@ -3,8 +3,8 @@ declare -A BASH_CMDS=()
 declare -A fluff
 declare -A BASH_ALIASES=()
 declare -A BASH_CMDS=()
-declare -A fluff=([foo]="one" [bar]="two" )
-declare -A fluff=([foo]="one" [bar]="two" )
+declare -A fluff=([bar]="two" [foo]="one" )
+declare -A fluff=([bar]="two" [foo]="one" )
 declare -A fluff=([bar]="two" )
 declare -A fluff=([qux]="assigned" [bar]="newval" )
 ./assoc.tests: line 39: chaff: four: must use subscript when assigning associative array
@@ -383,18 +383,18 @@ set
 stderr
 42
 42
-declare -A A=(["]"]="rbracket" ["["]="lbracket" )
+declare -A A=(["["]="lbracket" ["]"]="rbracket" )
 declare -A A=()
-declare -A A=(["]"]="rbracket" ["["]="lbracket" )
+declare -A A=(["["]="lbracket" ["]"]="rbracket" )
 declare -A A=()
-declare -A A=(["]"]="rbracket" ["["]="lbracket" )
+declare -A A=(["["]="lbracket" ["]"]="rbracket" )
 declare -A A=()
-declare -A A=(["]"]="rbracket" ["["]="lbracket" )
+declare -A A=(["["]="lbracket" ["]"]="rbracket" )
 declare -A A=()
-declare -A A=(["]"]="rbracket" ["["]="lbracket" )
+declare -A A=(["["]="lbracket" ["]"]="rbracket" )
 declare -A A=()
-declare -A A=(["]"]="rbracket" ["["]="lbracket" )
+declare -A A=(["["]="lbracket" ["]"]="rbracket" )
 declare -A A=()
-declare -A A=(["]"]="rbracket" ["["]="lbracket" )
+declare -A A=(["["]="lbracket" ["]"]="rbracket" )
 declare -A A=()
 5: ok 1
