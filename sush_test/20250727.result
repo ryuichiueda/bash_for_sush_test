@@ -44,7 +44,7 @@ run-dynvar 0
 run-tilde2 39
 run-trap 123
 run-input-test 0
-run-complete 269
+run-complete 270
 run-new-exp 781
 run-dbg-support2 12
 run-ifs-posix 256
@@ -79,5 +79,5 @@ run-set-e 72
 run-dbg-support 443
 run-history 355
 run-extglob3 0
-run-posixexp2 43
 run-casemod 33
+run-posixexp2 43
