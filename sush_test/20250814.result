@@ -32,7 +32,7 @@ run-arith-for 134
 run-iquote 18
 run-cond 89
 run-func 365
-run-tilde2 31
+run-tilde2 27
 run-posixexp 290
 run-glob-test 248
 run-dirstack 156
@@ -46,7 +46,7 @@ run-type 180
 run-read 92
 run-posixpipe 80
 run-new-exp 781
-run-more-exp 125
+run-more-exp 126
 run-comsub-posix 84
 run-shopt 651
 run-alias 0
@@ -74,7 +74,7 @@ run-nameref 953
 run-globstar 0
 run-posixexp2 43
 run-test 202
-run-complete 267
+run-complete 270
 run-lastpipe 0
 run-array 59
 run-dynvar 0
