@@ -31,8 +31,8 @@ run-jobs 100
 run-arith-for 134
 run-iquote 18
 run-cond 89
-run-func 365
-run-tilde2 25
+run-func 369
+run-tilde2 16
 run-posixexp 290
 run-glob-test 248
 run-dirstack 156
@@ -74,7 +74,7 @@ run-nameref 953
 run-globstar 0
 run-posixexp2 43
 run-test 202
-run-complete 273
+run-complete 272
 run-lastpipe 0
 run-array 59
 run-dynvar 0
