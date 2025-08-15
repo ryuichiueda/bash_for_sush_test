@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 130
+run-execscript 131
 run-strip 0
 run-exportfunc 34
 run-heredoc 149
@@ -74,7 +74,7 @@ run-nameref 953
 run-globstar 0
 run-posixexp2 43
 run-test 196
-run-complete 265
+run-complete 269
 run-lastpipe 0
 run-array 59
 run-dynvar 0
