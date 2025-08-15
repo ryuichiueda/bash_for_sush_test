@@ -8,7 +8,7 @@ run-test 202
 run-lastpipe 0
 run-cprint 85
 run-array 59
-run-execscript 129
+run-execscript 130
 run-coproc 55
 run-shopt 651
 run-redir 171
@@ -42,14 +42,14 @@ run-arith-for 134
 run-iquote 12
 run-dynvar 0
 run-tilde2 0
-run-trap 123
+run-trap 124
 run-input-test 0
-run-complete 268
+run-complete 267
 run-new-exp 781
 run-dbg-support2 12
+run-ifs-posix 926
 run-read 92
 run-getopts 57
-run-ifs-posix DNF
 run-errors 292
 run-func 365
 run-nameref 953
@@ -78,6 +78,6 @@ run-nquote4 0
 run-set-e 72
 run-dbg-support 443
 run-history 355
-run-posixexp2 43
 run-casemod 33
+run-posixexp2 43
 run-extglob3 0
