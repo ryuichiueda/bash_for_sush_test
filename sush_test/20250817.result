@@ -1,11 +1,11 @@
 run-rsh 0
-run-execscript 130
+run-execscript 131
 run-strip 0
 run-exportfunc 34
 run-heredoc 149
 run-coproc 41
 run-braces 0
-run-attr 8
+run-attr 0
 run-herestr 0
 run-appendop 41
 run-dbg-support 445
@@ -70,11 +70,11 @@ run-arith 23
 run-exp-tests 774
 run-set-x 112
 run-quote 42
-run-nameref 953
+run-nameref 955
 run-globstar 0
 run-posixexp2 43
 run-test 196
-run-complete 274
+run-complete 269
 run-lastpipe 0
 run-array 67
 run-dynvar 0
