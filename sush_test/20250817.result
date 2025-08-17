@@ -42,14 +42,14 @@ run-arith-for 134
 run-iquote 0
 run-dynvar 0
 run-tilde2 0
-run-trap 124
+run-trap 123
+run-complete 265
 run-input-test 0
-run-complete 271
 run-new-exp 781
 run-dbg-support2 12
+run-ifs-posix 10
 run-read 92
 run-getopts 57
-run-ifs-posix DNF
 run-errors 292
 run-func 365
 run-nameref 954
@@ -78,6 +78,6 @@ run-nquote4 0
 run-set-e 72
 run-dbg-support 443
 run-history 355
-run-casemod 33
 run-posixexp2 43
 run-extglob3 0
+run-casemod 33
