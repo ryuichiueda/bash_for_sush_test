@@ -65,12 +65,12 @@ run-errors 292
 run-posixpat 25
 run-comsub 70
 run-array2 0
-run-quotearray 246
+run-quotearray 247
 run-arith 23
 run-exp-tests 774
 run-set-x 112
 run-quote 42
-run-nameref 996
+run-nameref 599
 run-globstar 0
 run-posixexp2 43
 run-test 196
