@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 127
+run-execscript 130
 run-strip 0
 run-exportfunc 34
 run-heredoc 137
@@ -51,7 +51,7 @@ run-comsub-posix 84
 run-shopt 731
 run-alias 0
 run-set-e 72
-run-varenv 310
+run-varenv 304
 run-precedence 0
 run-intl 1468
 run-invert 0
@@ -70,7 +70,7 @@ run-arith 23
 run-exp-tests 774
 run-set-x 112
 run-quote 42
-run-nameref 1085
+run-nameref 1004
 run-globstar 0
 run-posixexp2 43
 run-test 196
