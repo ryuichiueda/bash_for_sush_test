@@ -74,9 +74,9 @@ run-nameref 567
 run-globstar 0
 run-posixexp2 43
 run-test 199
-run-complete 273
+run-complete 270
 run-lastpipe 0
-run-array 115
+run-array 107
 run-dynvar 0
 run-dbg-support2 12
 run-getopts 57
