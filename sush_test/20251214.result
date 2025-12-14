@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 131
+run-execscript 132
 run-strip 0
 run-exportfunc 34
 run-heredoc 136
@@ -16,7 +16,7 @@ run-nquote3 0
 run-rhs-exp 31
 run-nquote4 0
 run-nquote5 0
-run-assoc 372
+run-assoc 364
 run-posix2 0
 run-procsub 12
 run-nquote 0
