@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 131
+run-execscript 130
 run-strip 0
 run-exportfunc 34
 run-heredoc 137
