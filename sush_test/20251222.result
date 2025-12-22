@@ -70,11 +70,11 @@ run-arith 23
 run-exp-tests 773
 run-set-x 85
 run-quote 41
-run-nameref 567
+run-nameref 565
 run-globstar 0
 run-posixexp2 43
 run-test 199
-run-complete 266
+run-complete 268
 run-lastpipe 0
 run-array 55
 run-dynvar 0
