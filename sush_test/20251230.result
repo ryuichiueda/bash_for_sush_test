@@ -9,8 +9,8 @@ run-lastpipe 0
 run-cprint 83
 run-array 63
 run-execscript 130
-run-shopt 663
 run-redir 180
+run-shopt 663
 run-coproc DNF
 run-exp-tests 774
 run-tilde 0
@@ -43,8 +43,8 @@ run-iquote 0
 run-dynvar 0
 run-tilde2 0
 run-trap 119
+run-complete 265
 run-input-test 0
-run-complete 266
 run-new-exp 781
 run-dbg-support2 12
 run-ifs-posix 0
