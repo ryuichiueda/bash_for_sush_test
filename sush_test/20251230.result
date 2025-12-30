@@ -8,10 +8,10 @@ run-test 199
 run-lastpipe 0
 run-cprint 83
 run-array 63
-run-execscript 126
+run-execscript 129
 run-shopt 663
-run-coproc 49
 run-redir 180
+run-coproc DNF
 run-exp-tests 774
 run-tilde 0
 run-printf 353
@@ -78,6 +78,6 @@ run-nquote4 0
 run-set-e 72
 run-dbg-support 433
 run-history 354
-run-extglob3 0
 run-posixexp2 43
+run-extglob3 0
 run-casemod 33
