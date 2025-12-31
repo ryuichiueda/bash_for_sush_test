@@ -1,9 +1,9 @@
 run-rsh 0
-run-execscript 116
+run-execscript 119
 run-strip 0
 run-exportfunc 34
 run-heredoc 137
-run-coproc DNF
+run-coproc 12
 run-braces 0
 run-attr 0
 run-herestr 0
@@ -74,7 +74,7 @@ run-nameref 565
 run-globstar 0
 run-posixexp2 43
 run-test 191
-run-complete 267
+run-complete 271
 run-lastpipe 0
 run-array 64
 run-dynvar 0
