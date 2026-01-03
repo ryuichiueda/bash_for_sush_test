@@ -1,0 +1,12 @@
+#!/bin/bash -xv
+
+date=$(date "+%Y%m%d")
+
+ulimit -v 10000000
+ulimit -m 10000000
+
+echo $date
+./bash_genuine_test #| tee $date.result | bash ./summary | tee $date.summary
+#./graph
+
+#cat $date.summary
