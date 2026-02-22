@@ -11,7 +11,7 @@ run-input-test 0
 run-histexpand 328
 run-herestr 0
 run-globstar 0
-run-execscript 117
+run-execscript 113
 run-procsub 12
 run-posixexp2 43
 run-func 182
@@ -29,7 +29,7 @@ run-dynvar 0
 run-tilde2 0
 run-nquote2 0
 run-iquote 0
-run-history 353
+run-history 352
 run-extglob2 0
 run-attr 0
 run-array2 0
@@ -45,10 +45,10 @@ run-comsub-eof 19
 run-nquote4 0
 run-cond 89
 run-comsub-posix 84
-run-varenv 279
+run-varenv 277
 run-set-x 85
 run-read 92
-run-quotearray 251
+run-quotearray 242
 run-posixpat 25
 run-parser 25
 run-nquote5 0
@@ -64,7 +64,7 @@ run-dbg-support 433
 run-arith-for 125
 run-arith 23
 run-dbg-support2 12
-run-test 166
+run-test 137
 run-quote 41
 run-posixexp 284
 run-heredoc 136
@@ -79,5 +79,5 @@ run-assoc 361
 run-vredir 104
 run-mapfile 178
 run-casemod 33
-run-builtins 215
+run-builtins 202
 run-array 63
