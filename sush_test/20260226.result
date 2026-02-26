@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 111
-run-trap 110
+run-trap 111
 run-set-e 72
 run-redir 180
 run-posix2 0
@@ -14,7 +14,7 @@ run-globstar 0
 run-execscript 115
 run-procsub 12
 run-posixexp2 43
-run-func 186
+run-func 179
 run-exp-tests 775
 run-shopt 662
 run-printf 353
@@ -54,7 +54,7 @@ run-parser 25
 run-nquote5 0
 run-extglob 117
 run-dollars 281
-run-coproc DNF
+run-coproc 19
 run-case 0
 run-appendop 40
 run-tilde 0
@@ -73,7 +73,7 @@ run-rsh 0
 run-nquote 0
 run-errors 291
 run-comsub 69
-run-complete 272
+run-complete 274
 run-braces 0
 run-assoc 361
 run-vredir 104
