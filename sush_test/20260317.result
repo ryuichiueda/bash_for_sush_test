@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 111
-run-trap 111
+run-trap 113
 run-set-e 72
 run-redir 180
 run-posix2 0
@@ -11,10 +11,10 @@ run-input-test 0
 run-histexpand 328
 run-herestr 0
 run-globstar 0
-run-execscript 120
+run-execscript 117
 run-procsub 12
 run-posixexp2 43
-run-func 182
+run-func 179
 run-exp-tests 775
 run-shopt 662
 run-printf 353
@@ -73,7 +73,7 @@ run-rsh 0
 run-nquote 0
 run-errors 291
 run-comsub 69
-run-complete 205
+run-complete 181
 run-braces 0
 run-assoc 361
 run-vredir 104
