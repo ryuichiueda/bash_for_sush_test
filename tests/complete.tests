@@ -123,4 +123,4 @@ complete -r xdvi
 complete -r notthere
 
 complete -r
-complete
+complete | sort
