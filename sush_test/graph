@@ -23,7 +23,7 @@ gnuplot << EOF
 set terminal png
 set output "$dir/graph.png"
 set title "TEST RESULTS using run-* SCRIPTS in OFFICIAL BASH REPO (alpha branch)"
-set xrange [2025:2026]
+set xrange [2025:2027]
 set xtics 1
 set mxtics 4
 set yrange [0:90]
