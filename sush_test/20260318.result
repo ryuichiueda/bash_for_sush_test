@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 111
-run-trap 111
+run-trap 113
 run-set-e 72
 run-redir 180
 run-posix2 0
@@ -29,7 +29,7 @@ run-dynvar 0
 run-tilde2 0
 run-nquote2 0
 run-iquote 0
-run-history 352
+run-history 354
 run-extglob2 0
 run-attr 0
 run-array2 0
@@ -73,7 +73,7 @@ run-rsh 0
 run-nquote 0
 run-errors 291
 run-comsub 69
-run-complete 77
+run-complete 67
 run-braces 0
 run-assoc 361
 run-vredir 104
