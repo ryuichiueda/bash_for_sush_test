@@ -1,3 +1,4 @@
+complete -f -X '!*.+(ps|PS)' gs
 complete -A helptopic help
 complete -A hostname ftp
 complete -A hostname rlogin
@@ -23,7 +24,6 @@ complete -e printenv
 complete -f -X '!*.+(gz|tgz)' gunzip
 complete -f -X '!*.+(gz|tgz)' gzcat
 complete -f -X '!*.+(ps|PS)' ghostview
-complete -f -X '!*.+(ps|PS)' gs
 complete -f -X '!*.+(ps|PS)' gs
 complete -f -X '!*.+(ps|PS)' gv
 complete -f -X '!*.Z' uncompress

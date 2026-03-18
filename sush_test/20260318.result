@@ -73,7 +73,7 @@ run-rsh 0
 run-nquote 0
 run-errors 291
 run-comsub 69
-run-complete 4
+run-complete 0
 run-braces 0
 run-assoc 361
 run-vredir 104
