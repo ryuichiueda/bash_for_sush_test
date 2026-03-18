@@ -117,7 +117,7 @@ complete -f -X '!*.texi*' makeinfo texi2dvi texi2html
 complete -c gdb make
 
 complete -p gs
-complete -p
+complete -p | sort
 
 complete -r xdvi
 complete -r notthere
