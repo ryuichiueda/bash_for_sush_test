@@ -11,7 +11,7 @@ run-input-test 0
 run-histexpand 327
 run-herestr 0
 run-globstar 0
-run-execscript 115
+run-execscript 114
 run-procsub 6
 run-posixexp2 43
 run-func 179
