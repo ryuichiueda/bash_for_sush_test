@@ -3,7 +3,7 @@ run-exportfunc 34
 run-type 111
 run-trap 111
 run-set-e 72
-run-redir 180
+run-redir 161
 run-posix2 0
 run-lastpipe 0
 run-jobs 29
@@ -20,7 +20,7 @@ run-shopt 662
 run-printf 353
 run-precedence 0
 run-nquote1 0
-run-nameref 602
+run-nameref 601
 run-more-exp 95
 run-invert 0
 run-ifs 0
