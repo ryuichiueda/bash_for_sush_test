@@ -11,7 +11,7 @@ run-input-test 0
 run-histexpand 327
 run-herestr 0
 run-globstar 0
-run-execscript 119
+run-execscript 115
 run-procsub 6
 run-posixexp2 43
 run-func 179
@@ -47,7 +47,7 @@ run-cond 89
 run-comsub-posix 84
 run-varenv 277
 run-set-x 85
-run-read 89
+run-read 87
 run-quotearray 242
 run-posixpat 25
 run-parser 25
