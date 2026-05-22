@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 111
-run-trap 115
+run-trap 114
 run-set-e 72
 run-redir 161
 run-posix2 0
@@ -11,7 +11,7 @@ run-input-test 0
 run-histexpand 327
 run-herestr 0
 run-globstar 0
-run-execscript 115
+run-execscript 118
 run-procsub 6
 run-posixexp2 43
 run-func 179
