@@ -11,7 +11,7 @@ run-input-test 0
 run-histexpand 327
 run-herestr 0
 run-globstar 0
-run-execscript 118
+run-execscript 120
 run-procsub 6
 run-posixexp2 43
 run-func 179
@@ -29,7 +29,7 @@ run-dynvar 0
 run-tilde2 0
 run-nquote2 0
 run-iquote 0
-run-history 351
+run-history 353
 run-extglob2 0
 run-attr 0
 run-array2 0
