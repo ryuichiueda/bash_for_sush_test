@@ -8,12 +8,11 @@ complete -A shopt shopt
 complete -A signal kill
 complete -A signal trap
 complete -A stopped -P '%' bg
-complete -W '"${GROUPS[@]}"' newgrp
 complete -a unalias
-complete -c -k time
 complete -c eval
 complete -c exec
 complete -c gdb
+complete -c -k time
 complete -c make
 complete -c nice
 complete -c nohup
@@ -21,20 +20,6 @@ complete -c type
 complete -d mkdir
 complete -d rmdir
 complete -e printenv
-complete -f -X '!*.+(gz|tgz)' gunzip
-complete -f -X '!*.+(gz|tgz)' gzcat
-complete -f -X '!*.+(ps|PS)' ghostview
-complete -f -X '!*.+(ps|PS)' gs
-complete -f -X '!*.+(ps|PS)' gv
-complete -f -X '!*.Z' uncompress
-complete -f -X '!*.Z' zcat
-complete -f -X '!*.Z' zmore
-complete -f -X '!*.dvi' dvips
-complete -f -X '!*.dvi' xdvi
-complete -f -X '!*.pdf' acroread
-complete -f -X '!*.texi*' makeinfo
-complete -f -X '!*.texi*' texi2dvi
-complete -f -X '!*.texi*' texi2html
 complete -f .
 complete -f cat
 complete -f chown
@@ -42,6 +27,20 @@ complete -f gzip
 complete -f ln
 complete -f more
 complete -f source
+complete -f -X '!*.+(gz|tgz)' gunzip
+complete -f -X '!*.+(gz|tgz)' gzcat
+complete -f -X '!*.+(ps|PS)' ghostview
+complete -f -X '!*.+(ps|PS)' gs
+complete -f -X '!*.+(ps|PS)' gv
+complete -f -X '!*.dvi' dvips
+complete -f -X '!*.dvi' xdvi
+complete -f -X '!*.pdf' acroread
+complete -f -X '!*.texi*' makeinfo
+complete -f -X '!*.texi*' texi2dvi
+complete -f -X '!*.texi*' texi2html
+complete -f -X '!*.Z' uncompress
+complete -f -X '!*.Z' zcat
+complete -f -X '!*.Z' zmore
 complete -g groupdel
 complete -g groupmod
 complete -j -P '%' disown
@@ -52,12 +51,13 @@ complete -o bashdefault -o filenames -o nospace -F _comp_cd cd
 complete -o dirnames -o filenames -o nospace -d popd
 complete -o dirnames -o filenames -o nospace -d pushd
 complete -u su
+complete -v getopts
+complete -v read
 complete -v -S '=' declare
 complete -v -S '=' export
 complete -v -S '=' local
 complete -v -S '=' readonly
 complete -v -S '=' typeset
-complete -v getopts
-complete -v read
 complete -v unset
+complete -W '"${GROUPS[@]}"' newgrp
 ./complete.tests: line 123: complete: notthere: no completion specification
