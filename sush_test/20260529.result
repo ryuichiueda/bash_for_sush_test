@@ -1,5 +1,5 @@
 run-rsh 0
-run-execscript 116
+run-execscript 119
 run-strip 0
 run-exportfunc 34
 run-heredoc 137
@@ -43,9 +43,9 @@ run-input-test 0
 run-cprint 84
 run-history 323
 run-type 111
-run-read 47
+run-read 48
 run-posixpipe 66
-run-new-exp 781
+run-new-exp 795
 run-more-exp 93
 run-comsub-posix 84
 run-shopt 733
@@ -53,7 +53,7 @@ run-alias 0
 run-set-e 72
 run-varenv 278
 run-precedence 0
-run-intl 1466
+run-intl 59
 run-invert 0
 run-comsub-eof 19
 run-casemod 33
@@ -66,7 +66,7 @@ run-posixpat 25
 run-comsub 70
 run-array2 0
 run-quotearray 245
-run-arith 23
+run-arith 35
 run-exp-tests 774
 run-set-x 112
 run-quote 42
@@ -74,9 +74,9 @@ run-nameref 604
 run-globstar 0
 run-posixexp2 43
 run-test 143
-run-complete 121
+run-complete 116
 run-lastpipe 0
-run-array 64
+run-array 90
 run-dynvar 0
 run-dbg-support2 13
 run-getopts 58
