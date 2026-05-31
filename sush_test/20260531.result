@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 111
-run-trap 115
+run-trap 114
 run-set-e 72
 run-redir 161
 run-posix2 0
@@ -11,7 +11,7 @@ run-input-test 0
 run-histexpand 327
 run-herestr 0
 run-globstar 0
-run-execscript 73
+run-execscript 65
 run-procsub 6
 run-posixexp2 43
 run-func 179
@@ -47,7 +47,7 @@ run-cond 89
 run-comsub-posix 84
 run-varenv 277
 run-set-x 85
-run-read 48
+run-read 44
 run-quotearray 242
 run-posixpat 25
 run-parser 25
@@ -79,5 +79,5 @@ run-assoc 361
 run-vredir 104
 run-mapfile 178
 run-casemod 33
-run-builtins 225
+run-builtins 237
 run-array 63
