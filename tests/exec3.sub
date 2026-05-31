@@ -23,7 +23,7 @@ trap '' TERM
 trap
 
 kill -s USR1 $$		# should run the trap
-
+sleep 0.5               # added by Ueda
 exec /tmp/bash-notthere
 
 # make sure we're still around
