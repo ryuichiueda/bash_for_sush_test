@@ -11,7 +11,7 @@ run-input-test 0
 run-histexpand 327
 run-herestr 0
 run-globstar 0
-run-execscript 116
+run-execscript 65
 run-procsub 6
 run-posixexp2 43
 run-func 179
@@ -20,7 +20,7 @@ run-shopt 662
 run-printf 353
 run-precedence 0
 run-nquote1 0
-run-nameref 601
+run-nameref 565
 run-more-exp 95
 run-invert 0
 run-ifs 0
@@ -79,5 +79,5 @@ run-assoc 361
 run-vredir 104
 run-mapfile 178
 run-casemod 33
-run-builtins 225
+run-builtins 237
 run-array 63
