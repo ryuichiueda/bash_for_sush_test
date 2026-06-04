@@ -47,7 +47,7 @@ run-cond 89
 run-comsub-posix 84
 run-varenv 277
 run-set-x 85
-run-read DNF
+run-read 46
 run-quotearray 242
 run-posixpat 25
 run-parser 25
