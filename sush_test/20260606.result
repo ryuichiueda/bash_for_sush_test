@@ -14,8 +14,8 @@ run-globstar 0
 run-execscript 65
 run-procsub 6
 run-posixexp2 43
-run-func 179
-run-exp-tests 776
+run-func 181
+run-exp-tests 777
 run-shopt 662
 run-printf 353
 run-precedence 0
@@ -36,7 +36,7 @@ run-array2 0
 run-rhs-exp 31
 run-nquote3 0
 run-new-exp 781
-run-intl 1338
+run-intl 1336
 run-ifs-posix 0
 run-glob-test 229
 run-extglob3 0
@@ -47,7 +47,7 @@ run-cond 89
 run-comsub-posix 84
 run-varenv 277
 run-set-x 85
-run-read 32
+run-read 44
 run-quotearray 242
 run-posixpat 25
 run-parser 25
@@ -79,5 +79,5 @@ run-assoc 361
 run-vredir 104
 run-mapfile 178
 run-casemod 33
-run-builtins 237
+run-builtins 225
 run-array 63
