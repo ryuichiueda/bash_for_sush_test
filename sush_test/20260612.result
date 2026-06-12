@@ -17,7 +17,7 @@ run-posixexp2 43
 run-func 181
 run-exp-tests 777
 run-shopt 662
-run-printf 353
+run-printf 352
 run-precedence 0
 run-nquote1 0
 run-nameref 565
@@ -36,7 +36,7 @@ run-array2 0
 run-rhs-exp 31
 run-nquote3 0
 run-new-exp 434
-run-intl 1338
+run-intl 1336
 run-ifs-posix 0
 run-glob-test 229
 run-extglob3 0
