@@ -35,7 +35,7 @@ run-attr 0
 run-array2 0
 run-rhs-exp 31
 run-nquote3 0
-run-new-exp 781
+run-new-exp 434
 run-intl 1338
 run-ifs-posix 0
 run-glob-test 229
