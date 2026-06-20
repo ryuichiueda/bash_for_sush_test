@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 111
-run-trap 111
+run-trap 113
 run-set-e 72
 run-redir 161
 run-posix2 0
@@ -20,7 +20,7 @@ run-shopt 662
 run-printf 352
 run-precedence 0
 run-nquote1 0
-run-nameref 565
+run-nameref 566
 run-more-exp 95
 run-invert 0
 run-ifs 0
@@ -50,7 +50,7 @@ run-set-x 85
 run-read 32
 run-quotearray 242
 run-posixpat 25
-run-parser 19
+run-parser 14
 run-nquote5 0
 run-extglob 117
 run-dollars 281
