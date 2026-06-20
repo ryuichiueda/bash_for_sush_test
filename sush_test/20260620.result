@@ -50,7 +50,7 @@ run-set-x 85
 run-read 32
 run-quotearray 242
 run-posixpat 25
-run-parser 8
+run-parser 10
 run-nquote5 0
 run-extglob 117
 run-dollars 281
@@ -61,7 +61,7 @@ run-tilde 0
 run-posixpipe 65
 run-dirstack 156
 run-dbg-support 433
-run-arith-for 121
+run-arith-for 124
 run-arith 23
 run-dbg-support2 12
 run-test 137
