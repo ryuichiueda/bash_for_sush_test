@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 111
-run-trap 113
+run-trap 111
 run-set-e 72
 run-redir 161
 run-posix2 0
@@ -20,7 +20,7 @@ run-shopt 662
 run-printf 352
 run-precedence 0
 run-nquote1 0
-run-nameref 566
+run-nameref 567
 run-more-exp 95
 run-invert 0
 run-ifs 0
