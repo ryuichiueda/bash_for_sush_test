@@ -14,13 +14,13 @@ run-globstar 0
 run-execscript 53
 run-procsub 6
 run-posixexp2 43
-run-func 153
+run-func 147
 run-exp-tests 777
 run-shopt 662
 run-printf 352
 run-precedence 0
 run-nquote1 0
-run-nameref 570
+run-nameref 573
 run-more-exp 95
 run-invert 0
 run-ifs 0
@@ -45,7 +45,7 @@ run-comsub-eof 19
 run-nquote4 0
 run-cond 89
 run-comsub-posix 84
-run-varenv 277
+run-varenv 269
 run-set-x 85
 run-read 32
 run-quotearray 242
@@ -60,7 +60,7 @@ run-appendop 40
 run-tilde 0
 run-posixpipe 65
 run-dirstack 156
-run-dbg-support 433
+run-dbg-support 403
 run-arith-for 82
 run-arith 16
 run-dbg-support2 12
