@@ -1,6 +1,6 @@
 run-strip 0
 run-exportfunc 34
-run-type 111
+run-type 116
 run-trap 110
 run-set-e 72
 run-redir 161
@@ -14,7 +14,7 @@ run-globstar 0
 run-execscript 53
 run-procsub 6
 run-posixexp2 43
-run-func 181
+run-func 170
 run-exp-tests 777
 run-shopt 662
 run-printf 352
@@ -40,7 +40,7 @@ run-intl 1338
 run-ifs-posix 0
 run-glob-test 229
 run-extglob3 0
-run-cprint 85
+run-cprint 80
 run-comsub-eof 19
 run-nquote4 0
 run-cond 89
@@ -61,13 +61,13 @@ run-tilde 0
 run-posixpipe 65
 run-dirstack 156
 run-dbg-support 433
-run-arith-for 83
+run-arith-for 82
 run-arith 16
 run-dbg-support2 12
 run-test 137
 run-quote 41
 run-posixexp 284
-run-heredoc 136
+run-heredoc 135
 run-alias 0
 run-rsh 0
 run-nquote 0
