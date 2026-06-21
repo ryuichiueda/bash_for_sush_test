@@ -20,7 +20,7 @@ run-shopt 662
 run-printf 352
 run-precedence 0
 run-nquote1 0
-run-nameref 567
+run-nameref 570
 run-more-exp 95
 run-invert 0
 run-ifs 0
@@ -50,7 +50,7 @@ run-set-x 85
 run-read 32
 run-quotearray 242
 run-posixpat 25
-run-parser 3
+run-parser 0
 run-nquote5 0
 run-extglob 117
 run-dollars 281
@@ -61,8 +61,8 @@ run-tilde 0
 run-posixpipe 65
 run-dirstack 156
 run-dbg-support 433
-run-arith-for 124
-run-arith 23
+run-arith-for 121
+run-arith 35
 run-dbg-support2 12
 run-test 137
 run-quote 41
@@ -75,9 +75,9 @@ run-errors 290
 run-comsub 69
 run-complete 0
 run-braces 0
-run-assoc 361
+run-assoc 362
 run-vredir 104
 run-mapfile 178
 run-casemod 33
 run-builtins 225
-run-array 81
+run-array 85
