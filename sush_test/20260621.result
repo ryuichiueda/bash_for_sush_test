@@ -14,7 +14,7 @@ run-globstar 0
 run-execscript 53
 run-procsub 6
 run-posixexp2 43
-run-func 170
+run-func 159
 run-exp-tests 777
 run-shopt 662
 run-printf 352
