@@ -62,7 +62,7 @@ run-posixpipe 65
 run-dirstack 156
 run-dbg-support 433
 run-arith-for 121
-run-arith 27
+run-arith 23
 run-dbg-support2 12
 run-test 137
 run-quote 41
