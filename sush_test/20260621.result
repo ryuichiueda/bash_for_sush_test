@@ -40,7 +40,7 @@ run-intl 1338
 run-ifs-posix 0
 run-glob-test 229
 run-extglob3 0
-run-cprint 83
+run-cprint 85
 run-comsub-eof 19
 run-nquote4 0
 run-cond 89
@@ -62,7 +62,7 @@ run-posixpipe 65
 run-dirstack 156
 run-dbg-support 433
 run-arith-for 121
-run-arith 23
+run-arith 16
 run-dbg-support2 12
 run-test 137
 run-quote 41
