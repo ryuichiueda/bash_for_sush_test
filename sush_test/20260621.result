@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 111
-run-trap 111
+run-trap 110
 run-set-e 72
 run-redir 161
 run-posix2 0
@@ -62,7 +62,7 @@ run-posixpipe 65
 run-dirstack 156
 run-dbg-support 433
 run-arith-for 121
-run-arith 35
+run-arith 27
 run-dbg-support2 12
 run-test 137
 run-quote 41
@@ -80,4 +80,4 @@ run-vredir 104
 run-mapfile 178
 run-casemod 33
 run-builtins 225
-run-array 85
+run-array 71
