@@ -63,7 +63,7 @@ run-dirstack 156
 run-dbg-support 801
 run-arith-for 82
 run-arith 16
-run-dbg-support2 4
+run-dbg-support2 0
 run-test 137
 run-quote 41
 run-posixexp 284
