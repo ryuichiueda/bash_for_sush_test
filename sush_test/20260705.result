@@ -49,7 +49,7 @@ run-varenv 269
 run-set-x 85
 run-read 32
 run-quotearray 242
-run-posixpat 2
+run-posixpat 0
 run-parser 0
 run-nquote5 0
 run-extglob 117
