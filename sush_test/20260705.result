@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 108
-run-trap 88
+run-trap 89
 run-set-e 72
 run-redir 161
 run-posix2 0
@@ -38,7 +38,7 @@ run-nquote3 0
 run-new-exp 434
 run-intl 1338
 run-ifs-posix 0
-run-glob-test 213
+run-glob-test 190
 run-extglob3 0
 run-cprint 76
 run-comsub-eof 19
@@ -49,7 +49,7 @@ run-varenv 269
 run-set-x 85
 run-read 32
 run-quotearray 242
-run-posixpat 21
+run-posixpat 12
 run-parser 0
 run-nquote5 0
 run-extglob 117
