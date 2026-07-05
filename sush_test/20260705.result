@@ -1,7 +1,7 @@
 run-strip 0
 run-exportfunc 34
 run-type 108
-run-trap 76
+run-trap 79
 run-set-e 72
 run-redir 161
 run-posix2 0
@@ -60,7 +60,7 @@ run-appendop 40
 run-tilde 0
 run-posixpipe 65
 run-dirstack 156
-run-dbg-support 432
+run-dbg-support 417
 run-arith-for 82
 run-arith 16
 run-dbg-support2 13
