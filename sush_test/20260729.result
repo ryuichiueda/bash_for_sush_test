@@ -9,7 +9,7 @@ run-attr 0
 run-herestr 0
 run-appendop 40
 run-dbg-support 803
-run-trap 75
+run-trap 73
 run-nquote1 0
 run-nquote2 0
 run-nquote3 0
@@ -45,7 +45,7 @@ run-history 323
 run-type 108
 run-read 32
 run-posixpipe 66
-run-new-exp 394
+run-new-exp 390
 run-more-exp 93
 run-comsub-posix 84
 run-shopt 734
@@ -74,7 +74,7 @@ run-nameref 566
 run-globstar 0
 run-posixexp2 43
 run-test 178
-run-complete 115
+run-complete 122
 run-lastpipe 0
 run-array 71
 run-dynvar 0
