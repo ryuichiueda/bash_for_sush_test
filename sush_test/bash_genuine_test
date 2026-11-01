@@ -3,6 +3,9 @@
 ulimit -v 10000000
 ulimit -m 10000000
 
+sushdir=${1:-~/GIT/rusty_bash}
+testdir=${2:-~/GIT/bash_for_sush_test/tests}
+
 dir=$(dirname $0)
 
 export SUSH_COMPAT_TEST_MODE=1
@@ -10,7 +13,7 @@ export TMPDIR=/tmp
 export PATH=$PATH:/home/ueda/GIT/bash_for_sush_test/tests
 export LC_ALL=en_US.utf8
 
-timeout 115 $dir/bash_genuine_test_sub > /tmp/$$-result &
+timeout 115 $dir/bash_genuine_test_sub $sushdir $testdir > /tmp/$$-result &
 
 sleep 120
 

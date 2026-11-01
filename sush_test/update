@@ -5,8 +5,11 @@ date=$(date "+%Y%m%d")
 ulimit -v 10000000
 ulimit -m 10000000
 
+sushdir=${1:-~/GIT/rusty_bash}
+testdir=${2:-~/GIT/bash_for_sush_test/tests}
+
 echo $date
-./bash_genuine_test | tee $date.result | bash ./summary | tee $date.summary
+./bash_genuine_test $sushdir $testdir | tee $date.result | bash ./summary | tee $date.summary
 ./graph
 
 cat $date.summary
