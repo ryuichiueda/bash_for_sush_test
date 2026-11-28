@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash
 
 tmp=/tmp/$$
 dir=$(dirname $0)
@@ -8,7 +8,7 @@ sed 's/\.summary/ /' |
 tr -d :              |
 sort                 |
 while read day item num ; do
-	gdate "+%Y %j $item $num" -d $day
+	date "+%Y %j $item $num" -d $day
 done                 |
 gawk '{print $1"."$2/366, $3, $4}' |
 sed 's/\.0//'        |
@@ -23,13 +23,13 @@ gnuplot << EOF
 set terminal png
 set output "$dir/graph.png"
 set title "TEST RESULTS using run-* SCRIPTS in OFFICIAL BASH REPO (alpha branch)"
-set xrange [2025:2026]
+set xrange [2025:2027]
 set xtics 1
 set mxtics 4
 set yrange [0:90]
 set ytics nomirror
-set y2range [0:30000]
-set y2tics 5000
+set y2range [0:15000]
+set y2tics 2500
 plot '$tmp-OK' title "PASSED run-* FILES (LEFT Y-AXIS)" axis x1y1 with linespoints pt 2 lc 1,\
 '$tmp-NG' title "NOT PASSED run-* FILES (LEFT Y-AXIS)" axis x1y1 with linespoints pt 1 lc 2,\
 '$tmp-DNF' axis x1y1 title "DNF run-* FILES (LEFT Y-AXIS)" with linespoints pt 3 lc 3, \

@@ -1,14 +1,15 @@
 #!/bin/bash -xv
 
-export PATH=../tests:$PATH
-
-gdate=$(gdate "+%Y%m%d")
+date=$(date "+%Y%m%d")
 
 ulimit -v 10000000
 ulimit -m 10000000
 
-echo $gdate
-./bash_genuine_test | tee $gdate.result | bash ./summary | tee $gdate.summary
+sushdir=${1:-~/GIT/rusty_bash}
+testdir=${2:-~/GIT/bash_for_sush_test/tests}
+
+echo $date
+./bash_genuine_test $sushdir $testdir | tee $date.result | bash ./summary | tee $date.summary
 ./graph
 
-cat $gdate.summary
+cat $date.summary

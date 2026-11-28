@@ -1,13 +1,13 @@
 #!/bin/bash
 
-#ulimit -v 10000000
-#ulimit -m 10000000
+ulimit -v 10000000
+ulimit -m 10000000
 
-HOME=~
+LANG=C
 
 sushdir=~/GIT/rusty_bash
 testdir=~/GIT/bash_for_sush_test/tests
-export PATH=$PATH:$HOME/GIT/bash_for_sush_test/tests
+export PATH=$PATH:/home/ueda/GIT/bash_for_sush_test/tests
 export SUSH_COMPAT_TEST_MODE=1
 export TMPDIR=/tmp
 
