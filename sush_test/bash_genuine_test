@@ -10,7 +10,6 @@ dir=$(dirname $0)
 
 export SUSH_COMPAT_TEST_MODE=1
 export TMPDIR=/tmp
-export PATH=$PATH:$2:$2/..
 export LC_ALL=en_US.utf8
 
 timeout 115 $dir/bash_genuine_test_sub $sushdir $testdir > /tmp/$$-result &

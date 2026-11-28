@@ -9,6 +9,7 @@ export SUSH_COMPAT_TEST_MODE=1
 export THIS_SH="${sushdir}/target/debug/sush"
 
 cd $testdir || exit 1
+export PATH=$PATH:$PWD:$PWD/..
 
 for t in $(echo run-*) ; do
 	[[ "$t" == "run-all" ]] && continue;
